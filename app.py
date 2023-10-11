@@ -47,8 +47,8 @@ def main():
 
     # Sidebar for user input
     st.sidebar.header("User Input")
-    input_latitude = st.sidebar.number_input("Enter latitude in degrees:",format="%.15f")
-    input_longitude = st.sidebar.number_input("Enter longitude in degrees:",format="%.15f")
+    input_latitude = st.sidebar.number_input("Enter latitude in degrees:")
+    input_longitude = st.sidebar.number_input("Enter longitude in degrees:")
 
     # Folder upload
     uploaded_folder = st.sidebar.file_uploader("Upload a folder of images", type=["zip"], accept_multiple_files=False)
